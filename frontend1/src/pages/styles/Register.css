@@ -1,0 +1,157 @@
+.reg-root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+}
+
+.reg-card {
+  display: flex;
+  width: min(1100px, 100%);
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12);
+  background: #ffffff;
+}
+
+.reg-photo {
+  position: relative;
+  width: 45%;
+  min-height: 520px;
+  background: linear-gradient(180deg, #4f46e5 0%, #6366f1 100%);
+}
+
+.reg-photo-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.reg-photo-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.28);
+}
+
+.reg-photo-content,
+.reg-photo-bottom {
+  position: absolute;
+  left: 1.5rem;
+  right: 1.5rem;
+}
+
+.reg-photo-content {
+  top: 1.5rem;
+}
+
+.reg-photo-bottom {
+  bottom: 1.5rem;
+}
+
+.reg-brand-name {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.reg-brand-tagline {
+  margin-top: 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.75;
+}
+
+.reg-form-side {
+  width: 55%;
+  padding: 3rem;
+}
+
+.reg-form-tagline {
+  margin: 0.5rem 0 2rem;
+  color: #6b7280;
+}
+
+.reg-field {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.9rem;
+  background: #f8fafc;
+}
+
+.reg-icon {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #4f46e5;
+}
+
+.reg-field input,
+.reg-field select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.reg-eye {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.reg-btn,
+.reg-social-btn {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border: none;
+  border-radius: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reg-btn {
+  margin-top: 1.5rem;
+  background: #4338ca;
+  color: #ffffff;
+}
+
+.reg-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.75rem 0 1rem;
+  color: #6b7280;
+}
+
+.reg-divider-line {
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+.reg-socials {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.reg-social-btn {
+  background: #f3f4f6;
+}
+
+.reg-login {
+  margin-top: 1rem;
+  color: #6b7280;
+}
+
+.reg-login a {
+  color: #4338ca;
+  text-decoration: none;
+}
